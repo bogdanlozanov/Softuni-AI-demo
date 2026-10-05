@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT Essentials — практичен курс за начинаещи</title>
+  <style>
+    :root { color-scheme: dark; --accent: #49e5bd; --muted: #b8c8c5; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #101c1b; color: #f4faf8; font-family: Arial, sans-serif; line-height: 1.6; }
+    a { color: inherit; }
+    .hero { background: radial-gradient(ellipse at 80% 0%, #18b99666, transparent 60%), linear-gradient(145deg, #08755f, #102d29); padding: 32px 24px 76px; }
+    .container { max-width: 1080px; margin: auto; }
+    .brand { font-size: 14px; font-weight: 700; letter-spacing: .08em; }
+    .brand span { color: var(--accent); }
+    .hero-content { max-width: 780px; padding-top: 62px; }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { font-size: clamp(40px, 7vw, 76px); line-height: 1.06; letter-spacing: -.045em; margin: 20px 0 24px; }
+    .intro { max-width: 630px; font-size: 19px; color: #d6eae5; }
+    .facts { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 28px 0; list-style: none; }
+    .facts li { border: 1px solid #ffffff30; border-radius: 100px; padding: 7px 14px; font-size: 14px; }
+    .button { display: inline-block; background: var(--accent); color: #073c30; text-decoration: none; font-weight: 700; padding: 14px 24px; border-radius: 10px; }
+    .button:hover { background: #8ff3d7; }
+    a:focus-visible { outline: 3px solid white; outline-offset: 5px; }
+    .program { padding: 64px 24px; scroll-margin-top: 24px; }
+    .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
+    h2 { font-size: 32px; line-height: 1.2; letter-spacing: -.025em; margin: 8px 0; }
+    .section-heading p { color: var(--muted); margin: 0; }
+    .topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .topic { border: 1px solid #ffffff13; background: #192927; border-radius: 14px; padding: 24px; }
+    .number { color: var(--accent); font-size: 12px; letter-spacing: .1em; font-weight: 700; }
+    h3 { font-size: 19px; line-height: 1.35; margin: 12px 0; }
+    .topic p { margin: 0; color: var(--muted); font-size: 15px; }
+    .topic:last-child { grid-column: 1 / -1; }
+    footer { padding: 24px; border-top: 1px solid #ffffff13; color: var(--muted); font-size: 13px; }
+    @media (max-width: 600px) {
+      .hero { padding: 24px 20px 48px; }
+      .hero-content { padding-top: 42px; }
+      .intro { font-size: 17px; }
+      .program { padding: 40px 20px; }
+      .section-heading { display: block; }
+      .topics { grid-template-columns: 1fr; }
+      .topic { padding: 20px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div class="container">
+        <div class="brand">ChatGPT <span>/</span> ESSENTIALS</div>
+        <div class="hero-content">
+          <p class="eyebrow">От първия въпрос до реалните резултати!!!!!!!!!!!!!!!</p>
+          <h1>ChatGPT Essentials</h1>
+          <p class="intro">Превърни ChatGPT в практичен помощник за работа, учене и ежедневни задачи. Започни с основите и развий уменията си с ясни примери и упражнения.</p>
+          <ul class="facts" aria-label="Информация за курса">
+            <li>За начинаещи</li><li>5 седмици</li><li>Онлайн на живо и на запис</li>
+          </ul>
+          <a class="button" href="#program">Разгледай темите <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </header>
+    <section class="program container" id="program" aria-labelledby="program-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Програмата на курса</p><h2 id="program-title">Какво ще научиш</h2></div>
+        <p>9 теми. Практика на всяка стъпка.</p>
+      </div>
+      <div class="topics">
+        <article class="topic" data-topic="1"><span class="number">01 / ОСНОВИ</span><h3>Ресурси</h3><p>Ориентирай се в учебните материали, примерите и практическите упражнения. Подготви всичко необходимо, за да следваш курса със собствено темпо.</p></article>
+        <article class="topic" data-topic="2"><span class="number">02 / ЯСНИ ИНСТРУКЦИИ</span><h3>Инженерство на запитванията</h3><p>Научи се да задаваш ясни инструкции, да добавяш контекст и да определяш желания формат. Подобрявай отговорите с уточнения и последващи въпроси.</p></article>
+        <article class="topic" data-topic="3"><span class="number">03 / ЕЖЕДНЕВНА ПРАКТИКА</span><h3>ChatGPT за лични и служебни задачи</h3><p>Упражнявай писане на имейли, създаване на текстове и планиране на задачи. Организирай ежедневната си работа с помощта на конкретни примери.</p></article>
+        <article class="topic" data-topic="4"><span class="number">04 / УЧЕНЕ И ПРОУЧВАНЕ</span><h3>ChatGPT за обучение и проучвания</h3><p>Получавай разбираеми обяснения и създавай учебни планове. Упражнявай обобщаване на информация и проверка на източници и твърдения.</p></article>
+        <article class="topic" data-topic="5"><span class="number">05 / ТВОЯТ ПОМОЩНИК</span><h3>Custom GPTs, Projects и персонализация</h3><p>Запознай се с персонализирани помощници и организирай работата си по проекти. Подготвяй инструкции, които отразяват целите и предпочитанията ти.</p></article>
+        <article class="topic" data-topic="6"><span class="number">06 / ИНСТРУМЕНТИ</span><h3>Agent Mode, инструменти и OpenAI Playground</h3><p>Разгледай практически примери за работа с инструменти и изпълнение на задачи в няколко стъпки. Запознай се с OpenAI Playground като среда за експерименти.</p></article>
+        <article class="topic" data-topic="7"><span class="number">07 / МАЛКИ ПРОЕКТИ</span><h3>Codex за продуктивност и подготовка за изпит</h3><p>Практикувай работа с файлове и малки проекти с помощта на Codex. Затвърди наученото с упражнения за подготовка за изпита.</p></article>
+        <article class="topic" data-topic="8"><span class="number">08 / ПРИЛОЖИ НАУЧЕНОТО</span><h3>Редовен изпит</h3><p>Приложи уменията си в практическа задача. Покажи как формулираш инструкции, използваш подходящи инструменти и проверяваш резултата.</p></article>
+        <article class="topic" data-topic="9"><span class="number">09 / ВТОРИ ОПИТ</span><h3>Поправителен изпит</h3><p>Преговори основните теми и използвай обратната връзка от първия опит. Демонстрирай напредъка си с нова практическа задача.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">ChatGPT Essentials · Примерна учебна програма</div></footer>
+</body>
+</html>
